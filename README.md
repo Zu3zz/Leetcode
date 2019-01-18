@@ -1,6 +1,6 @@
 # author by 3zz
 
-## written in python
+## written in python and cpp
 my solution to leetcode
 
 *including python3 and cpp*
