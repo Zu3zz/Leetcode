@@ -1,9 +1,0 @@
-{
-    "python.unitTest.pyTestArgs": [
-        "01-two-sum"
-    ],
-    "python.unitTest.unittestEnabled": false,
-    "python.unitTest.nosetestsEnabled": false,
-    "python.unitTest.pyTestEnabled": false,
-    "python.unitTest.promptToConfigure": false
-}
