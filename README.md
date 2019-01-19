@@ -1,5 +1,8 @@
-##author by 3zz
-##written in python
+# author by 3zz
+
+## written in python and cpp
 my solution to leetcode
 
-to be updated
+*including python3 and cpp*
+
+#### if u like it give a :heart: thank u~
