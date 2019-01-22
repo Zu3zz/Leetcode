@@ -7,7 +7,7 @@ class KthLargest {
 // 如果大于最小值 那么就把当前的最小值扔掉 新的元素存进优先队列中 优先队列自己内部重新排列一次
 // 依旧假设有k个元素 那么时间复杂度可以从K*1 到K*logn(优先队列的自我内部重排)
 // 可以发现 明显优于第一种算法
-// leetcode 的通过时间为36ms 最快的solution思路相同 做了一些优化 可以达到24ms
+// leetcode 的通过时间为36ms 最快的solution思路相同 做了一些优化 可以达到24ms	
 public:
     KthLargest(int k, vector<int> nums) {
         size = k;
