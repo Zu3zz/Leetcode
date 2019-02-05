@@ -12,7 +12,7 @@ public:
         }
         if (left > 0) {
             gen(sublist+ "(", vec, left-1, right);
-        }
+        } 
         if (right > left) {
             gen(sublist+ ")", vec, left, right-1);
         }
