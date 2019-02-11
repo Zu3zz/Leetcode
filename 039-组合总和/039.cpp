@@ -4,6 +4,12 @@ static const auto __ = []() {
   return nullptr;
 }();
 class Solution {
+	/*
+	执行时间为16ms 用了上面的代码变成8ms
+	使用dfs的思想进行递归调用
+	每次dfs都去循环找符合条件的数组中的值 
+	因为可以重复拿数组中的值 所以每次dfs开始的值可以从0开始
+	*/
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> res;
