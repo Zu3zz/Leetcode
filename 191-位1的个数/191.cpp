@@ -6,6 +6,7 @@ static const auto io_sync_off=[](){
 class Solution {
 public:
 	// 利用位运算 消去二进制的最后一位1 复杂度为有n个1 那就是n*O(1)
+	// 相比较于遍历 能够更快一些
     int hammingWeight(uint32_t n) {
         int count = 0;
         while(n!=0){
