@@ -9,6 +9,7 @@
  */
 class Solution {
 public:
+	// 中序遍历
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> res;
         if(root == NULL) return res;
