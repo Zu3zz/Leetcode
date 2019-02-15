@@ -26,6 +26,7 @@ public:
             return res;
         }
         for(int i = begin; i<=end;++i){
+        	// 分出一个左子树 右子树 分别递归循环
             vector<TreeNode*> left = DFS(begin,i-1);
             vector<TreeNode*> right = DFS(i+1,end);
             for(auto l: left){
