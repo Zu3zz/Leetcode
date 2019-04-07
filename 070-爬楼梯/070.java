@@ -1,4 +1,5 @@
 class Solution {
+	// 斐波那契
     public int climbStairs(int n) {
         if(n==1){return 1;}
         int[] res = new int[n];
