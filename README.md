@@ -1,8 +1,9 @@
 # author by 3zz
 
-## written in python and cpp
+## leetcode solution & weekly contest
+
 my solution to leetcode
 
-*including python3 and cpp*
+_including python3 and cpp_
 
-#### if u like it give a :heart: thank u~
+### if u like it give a :heart: thank u~
