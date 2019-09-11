@@ -1,3 +1,15 @@
+"""
+这里我们使用回溯法
+backtrace函数接受三个参数
+1. i当前指针的位置
+2. tmp代表当前已经添加的所有字符串
+3. flag代表当前已经确定了多少ip地址
+
+在backtrace的过程中 主要判断当前字符串即ip地址的大小 根据大小进行判断怎么添加
+
+但是很神奇 回溯居然比暴力要慢。。 也不知道怎么搞得
+"""
+
 class Solution(object):
     def restoreIpAddresses(self, s):
         """
