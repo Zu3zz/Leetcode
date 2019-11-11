@@ -4,6 +4,6 @@
 
 my solution to leetcode
 
-_including python3 and cpp_
+_including Python3 Cpp & Java_
 
 ### if u like it give a :heart: thank u~
